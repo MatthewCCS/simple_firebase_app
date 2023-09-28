@@ -1,0 +1,101 @@
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgb(214, 234, 227);
+  color: gray;
+  user-select: none;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header {
+  width: 320px;
+  padding: 10px;
+  margin: 10px auto 0;
+  text-align: center;
+
+}
+header > img {
+  width: 180px;
+  padding-right: 20px;
+  user-select: none;
+  
+}
+
+main {
+  margin: 0 auto 20px;
+
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 5px auto;
+
+
+}
+
+input{
+  font-size: 16pt;
+}
+
+#input-field,
+#add-button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+
+}
+
+#input-field {
+  margin: 10px 0;
+}
+
+#add-button {
+  border-style: none;
+  background-color: #e08a90;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+ul li {
+  display: flex;
+  background-color: #FFFDF8;
+  padding: 10px;
+  border-radius: 8px;
+  flex-grow: 1;
+  justify-content: space-around;
+  text-align: center;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover {
+  background-color: #FFECC7;
+  
+}
+
+.close {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+li img {
+  width: 1.2em;
+  cursor: pointer;
+}
+
+footer {
+  font-size: 0.6em;
+  text-align: center;
+}
